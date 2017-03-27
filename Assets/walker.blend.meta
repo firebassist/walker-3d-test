@@ -1,0 +1,1078 @@
+fileFormatVersion: 2
+guid: d381d9e6852407a4ea67e431dbcd45f6
+timeCreated: 1490585482
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arm_bicep_R_DrawCall_3340_003
+    100002: arm_elbow_L_DrawCall_3340_008
+    100004: arm_elbow_R_DrawCall_3340_017
+    100006: arm_forearm_R_DrawCall_3340_031
+    100008: arm_hand_L_DrawCall_3340_010
+    100010: arm_hand_R_DrawCall_3340_009
+    100012: arm_lower_bicep_L_DrawCall_3340_045
+    100014: arm_lower_forearm_L_DrawCall_3340_020
+    100016: arm_middle_bicep_L_DrawCall_3340_032
+    100018: arm_middle_bicep_R_DrawCall_3340_036
+    100020: arm_upper_forearm_L_DrawCall_3340_021
+    100022: arm_upper_shoulder_L_DrawCall_3340_007
+    100024: arm_upper_shoulder_R_DrawCall_3340_001
+    100026: arm_wrist_L_DrawCall_3340_015
+    100028: arm_wrist_middle_R_DrawCall_3340_019
+    100030: arm_wrist_upper_lower_R_DrawCall_3340_016
+    100032: Armature
+    100034: body_inner_chest_DrawCall_3340_014
+    100036: body_jersey_DrawCall_3340_037
+    100038: Foot_L
+    100040: foot_L_DrawCall_3340_039
+    100042: Foot_R
+    100044: foot_R_DrawCall_3340_038
+    100046: foot_shoe_L_DrawCall_3340_012
+    100048: foot_shoe_R_DrawCall_3340_011
+    100050: Hand_L
+    100052: Hand_R
+    100054: Head
+    100056: head_DrawCall_3340_044
+    100058: head_eyeball_L_DrawCall_3340_035
+    100060: head_eyeball_R_DrawCall_3340_047
+    100062: head_eyebrow_L_DrawCall_3340_027
+    100064: head_eyebrow_R_DrawCall_3340_028
+    100066: head_inner_eye_L_001_DrawCall_3340_004
+    100068: head_inner_eye_L_DrawCall_3340_033
+    100070: head_inner_eye_R_001_DrawCall_3340_006
+    100072: head_inner_eye_R_DrawCall_3340_034
+    100074: head_inner_mouth_2_DrawCall_3340_046
+    100076: head_inner_mouth_3_DrawCall_3340_013
+    100078: head_lower_eye_L_DrawCall_3340_030
+    100080: head_lower_eye_R_DrawCall_3340_029
+    100082: head_lower_mouth_DrawCall_3340
+    100084: head_mouth_DrawCall_3340_005
+    100086: Hip
+    100088: leg_middle_leg_R_DrawCall_3340_041
+    100090: leg_shorts_DrawCall_3340_002
+    100092: leg_sock_L_DrawCall_3340_018
+    100094: leg_sock_R_DrawCall_3340_040
+    100096: leg_whole_middle__R_001_DrawCall_3340_049
+    100098: leg_whole_middle__R_DrawCall_3340_042
+    100100: leg_whole_middle_L_001_DrawCall_3340_048
+    100102: leg_whole_middle_L_DrawCall_3340_043
+    100104: Lower_Arm_L
+    100106: Lower_Arm_R
+    100108: Lower_Leg_L
+    100110: Lower_Leg_R
+    100112: Root
+    100114: Spine
+    100116: Toes_L
+    100118: Toes_R
+    100120: Upper_Arm_L
+    100122: Upper_Arm_R
+    100124: Upper_Leg_L
+    100126: Upper_Leg_R
+    100128: //RootNode
+    400000: arm_bicep_R_DrawCall_3340_003
+    400002: arm_elbow_L_DrawCall_3340_008
+    400004: arm_elbow_R_DrawCall_3340_017
+    400006: arm_forearm_R_DrawCall_3340_031
+    400008: arm_hand_L_DrawCall_3340_010
+    400010: arm_hand_R_DrawCall_3340_009
+    400012: arm_lower_bicep_L_DrawCall_3340_045
+    400014: arm_lower_forearm_L_DrawCall_3340_020
+    400016: arm_middle_bicep_L_DrawCall_3340_032
+    400018: arm_middle_bicep_R_DrawCall_3340_036
+    400020: arm_upper_forearm_L_DrawCall_3340_021
+    400022: arm_upper_shoulder_L_DrawCall_3340_007
+    400024: arm_upper_shoulder_R_DrawCall_3340_001
+    400026: arm_wrist_L_DrawCall_3340_015
+    400028: arm_wrist_middle_R_DrawCall_3340_019
+    400030: arm_wrist_upper_lower_R_DrawCall_3340_016
+    400032: Armature
+    400034: body_inner_chest_DrawCall_3340_014
+    400036: body_jersey_DrawCall_3340_037
+    400038: Foot_L
+    400040: foot_L_DrawCall_3340_039
+    400042: Foot_R
+    400044: foot_R_DrawCall_3340_038
+    400046: foot_shoe_L_DrawCall_3340_012
+    400048: foot_shoe_R_DrawCall_3340_011
+    400050: Hand_L
+    400052: Hand_R
+    400054: Head
+    400056: head_DrawCall_3340_044
+    400058: head_eyeball_L_DrawCall_3340_035
+    400060: head_eyeball_R_DrawCall_3340_047
+    400062: head_eyebrow_L_DrawCall_3340_027
+    400064: head_eyebrow_R_DrawCall_3340_028
+    400066: head_inner_eye_L_001_DrawCall_3340_004
+    400068: head_inner_eye_L_DrawCall_3340_033
+    400070: head_inner_eye_R_001_DrawCall_3340_006
+    400072: head_inner_eye_R_DrawCall_3340_034
+    400074: head_inner_mouth_2_DrawCall_3340_046
+    400076: head_inner_mouth_3_DrawCall_3340_013
+    400078: head_lower_eye_L_DrawCall_3340_030
+    400080: head_lower_eye_R_DrawCall_3340_029
+    400082: head_lower_mouth_DrawCall_3340
+    400084: head_mouth_DrawCall_3340_005
+    400086: Hip
+    400088: leg_middle_leg_R_DrawCall_3340_041
+    400090: leg_shorts_DrawCall_3340_002
+    400092: leg_sock_L_DrawCall_3340_018
+    400094: leg_sock_R_DrawCall_3340_040
+    400096: leg_whole_middle__R_001_DrawCall_3340_049
+    400098: leg_whole_middle__R_DrawCall_3340_042
+    400100: leg_whole_middle_L_001_DrawCall_3340_048
+    400102: leg_whole_middle_L_DrawCall_3340_043
+    400104: Lower_Arm_L
+    400106: Lower_Arm_R
+    400108: Lower_Leg_L
+    400110: Lower_Leg_R
+    400112: Root
+    400114: Spine
+    400116: Toes_L
+    400118: Toes_R
+    400120: Upper_Arm_L
+    400122: Upper_Arm_R
+    400124: Upper_Leg_L
+    400126: Upper_Leg_R
+    400128: //RootNode
+    4300000: head_inner_eye_R_001_DrawCall_3340_006
+    4300002: head_inner_mouth_3_DrawCall_3340_013
+    4300004: head_lower_eye_L_DrawCall_3340_030
+    4300006: arm_forearm_R_DrawCall_3340_031
+    4300008: body_inner_chest_DrawCall_3340_014
+    4300010: arm_wrist_middle_R_DrawCall_3340_019
+    4300012: leg_whole_middle__R_001_DrawCall_3340_049
+    4300014: foot_L_DrawCall_3340_039
+    4300016: arm_hand_L_DrawCall_3340_010
+    4300018: head_DrawCall_3340_044
+    4300020: leg_whole_middle_L_001_DrawCall_3340_048
+    4300022: body_jersey_DrawCall_3340_037
+    4300024: leg_middle_leg_R_DrawCall_3340_041
+    4300026: leg_whole_middle__R_DrawCall_3340_042
+    4300028: head_inner_eye_L_DrawCall_3340_033
+    4300030: head_inner_mouth_2_DrawCall_3340_046
+    4300032: arm_upper_forearm_L_DrawCall_3340_021
+    4300034: arm_lower_bicep_L_DrawCall_3340_045
+    4300036: arm_wrist_upper_lower_R_DrawCall_3340_016
+    4300038: arm_upper_shoulder_L_DrawCall_3340_007
+    4300040: leg_sock_R_DrawCall_3340_040
+    4300042: leg_whole_middle_L_DrawCall_3340_043
+    4300044: foot_shoe_R_DrawCall_3340_011
+    4300046: arm_lower_forearm_L_DrawCall_3340_020
+    4300048: arm_hand_R_DrawCall_3340_009
+    4300050: arm_middle_bicep_R_DrawCall_3340_036
+    4300052: leg_shorts_DrawCall_3340_002
+    4300054: head_eyebrow_R_DrawCall_3340_028
+    4300056: head_inner_eye_L_001_DrawCall_3340_004
+    4300058: head_eyebrow_L_DrawCall_3340_027
+    4300060: head_inner_eye_R_DrawCall_3340_034
+    4300062: head_mouth_DrawCall_3340_005
+    4300064: head_lower_mouth_DrawCall_3340
+    4300066: head_eyeball_L_DrawCall_3340_035
+    4300068: arm_bicep_R_DrawCall_3340_003
+    4300070: arm_wrist_L_DrawCall_3340_015
+    4300072: foot_R_DrawCall_3340_038
+    4300074: arm_upper_shoulder_R_DrawCall_3340_001
+    4300076: arm_elbow_R_DrawCall_3340_017
+    4300078: leg_sock_L_DrawCall_3340_018
+    4300080: arm_middle_bicep_L_DrawCall_3340_032
+    4300082: head_lower_eye_R_DrawCall_3340_029
+    4300084: foot_shoe_L_DrawCall_3340_012
+    4300086: head_eyeball_R_DrawCall_3340_047
+    4300088: arm_elbow_L_DrawCall_3340_008
+    7400000: Default Take
+    7400002: idle
+    7400004: walk
+    9500000: //RootNode
+    13700000: arm_bicep_R_DrawCall_3340_003
+    13700002: arm_elbow_L_DrawCall_3340_008
+    13700004: arm_elbow_R_DrawCall_3340_017
+    13700006: arm_forearm_R_DrawCall_3340_031
+    13700008: arm_hand_L_DrawCall_3340_010
+    13700010: arm_hand_R_DrawCall_3340_009
+    13700012: arm_lower_bicep_L_DrawCall_3340_045
+    13700014: arm_lower_forearm_L_DrawCall_3340_020
+    13700016: arm_middle_bicep_L_DrawCall_3340_032
+    13700018: arm_middle_bicep_R_DrawCall_3340_036
+    13700020: arm_upper_forearm_L_DrawCall_3340_021
+    13700022: arm_upper_shoulder_L_DrawCall_3340_007
+    13700024: arm_upper_shoulder_R_DrawCall_3340_001
+    13700026: arm_wrist_L_DrawCall_3340_015
+    13700028: arm_wrist_middle_R_DrawCall_3340_019
+    13700030: arm_wrist_upper_lower_R_DrawCall_3340_016
+    13700032: body_inner_chest_DrawCall_3340_014
+    13700034: body_jersey_DrawCall_3340_037
+    13700036: foot_L_DrawCall_3340_039
+    13700038: foot_R_DrawCall_3340_038
+    13700040: foot_shoe_L_DrawCall_3340_012
+    13700042: foot_shoe_R_DrawCall_3340_011
+    13700044: head_DrawCall_3340_044
+    13700046: head_eyeball_L_DrawCall_3340_035
+    13700048: head_eyeball_R_DrawCall_3340_047
+    13700050: head_eyebrow_L_DrawCall_3340_027
+    13700052: head_eyebrow_R_DrawCall_3340_028
+    13700054: head_inner_eye_L_001_DrawCall_3340_004
+    13700056: head_inner_eye_L_DrawCall_3340_033
+    13700058: head_inner_eye_R_001_DrawCall_3340_006
+    13700060: head_inner_eye_R_DrawCall_3340_034
+    13700062: head_inner_mouth_2_DrawCall_3340_046
+    13700064: head_inner_mouth_3_DrawCall_3340_013
+    13700066: head_lower_eye_L_DrawCall_3340_030
+    13700068: head_lower_eye_R_DrawCall_3340_029
+    13700070: head_lower_mouth_DrawCall_3340
+    13700072: head_mouth_DrawCall_3340_005
+    13700074: leg_middle_leg_R_DrawCall_3340_041
+    13700076: leg_shorts_DrawCall_3340_002
+    13700078: leg_sock_L_DrawCall_3340_018
+    13700080: leg_sock_R_DrawCall_3340_040
+    13700082: leg_whole_middle__R_001_DrawCall_3340_049
+    13700084: leg_whole_middle__R_DrawCall_3340_042
+    13700086: leg_whole_middle_L_001_DrawCall_3340_048
+    13700088: leg_whole_middle_L_DrawCall_3340_043
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: <Root Transform>
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'walk' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Upper_Leg_L' has scale animation that will be discarded.\n\t'Lower_Leg_L'
+      has scale animation that will be discarded.\n\t'Foot_L' has scale animation
+      that will be discarded.\n\t'Upper_Leg_R' has scale animation that will be discarded.\n\t'Lower_Leg_R'
+      has scale animation that will be discarded.\n\t'Foot_R' has scale animation
+      that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: idle
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: arm_bicep_R_DrawCall_3340_003
+        weight: 0
+      - path: arm_elbow_L_DrawCall_3340_008
+        weight: 0
+      - path: arm_elbow_R_DrawCall_3340_017
+        weight: 0
+      - path: arm_forearm_R_DrawCall_3340_031
+        weight: 0
+      - path: arm_hand_L_DrawCall_3340_010
+        weight: 0
+      - path: arm_hand_R_DrawCall_3340_009
+        weight: 0
+      - path: arm_lower_bicep_L_DrawCall_3340_045
+        weight: 0
+      - path: arm_lower_forearm_L_DrawCall_3340_020
+        weight: 0
+      - path: arm_middle_bicep_L_DrawCall_3340_032
+        weight: 0
+      - path: arm_middle_bicep_R_DrawCall_3340_036
+        weight: 0
+      - path: arm_upper_forearm_L_DrawCall_3340_021
+        weight: 0
+      - path: arm_upper_shoulder_L_DrawCall_3340_007
+        weight: 0
+      - path: arm_upper_shoulder_R_DrawCall_3340_001
+        weight: 0
+      - path: arm_wrist_L_DrawCall_3340_015
+        weight: 0
+      - path: arm_wrist_middle_R_DrawCall_3340_019
+        weight: 0
+      - path: arm_wrist_upper_lower_R_DrawCall_3340_016
+        weight: 0
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Hip
+        weight: 1
+      - path: Armature/Root/Hip/Spine
+        weight: 1
+      - path: Armature/Root/Hip/Spine/Head
+        weight: 1
+      - path: Armature/Root/Hip/Spine/Upper_Arm_L
+        weight: 1
+      - path: Armature/Root/Hip/Spine/Upper_Arm_L/Lower_Arm_L
+        weight: 1
+      - path: Armature/Root/Hip/Spine/Upper_Arm_L/Lower_Arm_L/Hand_L
+        weight: 1
+      - path: Armature/Root/Hip/Spine/Upper_Arm_R
+        weight: 1
+      - path: Armature/Root/Hip/Spine/Upper_Arm_R/Lower_Arm_R
+        weight: 1
+      - path: Armature/Root/Hip/Spine/Upper_Arm_R/Lower_Arm_R/Hand_R
+        weight: 1
+      - path: Armature/Root/Hip/Upper_Leg_L
+        weight: 1
+      - path: Armature/Root/Hip/Upper_Leg_L/Lower_Leg_L
+        weight: 1
+      - path: Armature/Root/Hip/Upper_Leg_L/Lower_Leg_L/Foot_L
+        weight: 1
+      - path: Armature/Root/Hip/Upper_Leg_L/Lower_Leg_L/Foot_L/Toes_L
+        weight: 1
+      - path: Armature/Root/Hip/Upper_Leg_R
+        weight: 1
+      - path: Armature/Root/Hip/Upper_Leg_R/Lower_Leg_R
+        weight: 1
+      - path: Armature/Root/Hip/Upper_Leg_R/Lower_Leg_R/Foot_R
+        weight: 1
+      - path: Armature/Root/Hip/Upper_Leg_R/Lower_Leg_R/Foot_R/Toes_R
+        weight: 1
+      - path: body_inner_chest_DrawCall_3340_014
+        weight: 0
+      - path: body_jersey_DrawCall_3340_037
+        weight: 0
+      - path: foot_L_DrawCall_3340_039
+        weight: 0
+      - path: foot_R_DrawCall_3340_038
+        weight: 0
+      - path: foot_shoe_L_DrawCall_3340_012
+        weight: 0
+      - path: foot_shoe_R_DrawCall_3340_011
+        weight: 0
+      - path: head_DrawCall_3340_044
+        weight: 0
+      - path: head_eyeball_L_DrawCall_3340_035
+        weight: 0
+      - path: head_eyeball_R_DrawCall_3340_047
+        weight: 0
+      - path: head_eyebrow_L_DrawCall_3340_027
+        weight: 0
+      - path: head_eyebrow_R_DrawCall_3340_028
+        weight: 0
+      - path: head_inner_eye_L_001_DrawCall_3340_004
+        weight: 0
+      - path: head_inner_eye_L_DrawCall_3340_033
+        weight: 0
+      - path: head_inner_eye_R_001_DrawCall_3340_006
+        weight: 0
+      - path: head_inner_eye_R_DrawCall_3340_034
+        weight: 0
+      - path: head_inner_mouth_2_DrawCall_3340_046
+        weight: 0
+      - path: head_inner_mouth_3_DrawCall_3340_013
+        weight: 0
+      - path: head_lower_eye_L_DrawCall_3340_030
+        weight: 0
+      - path: head_lower_eye_R_DrawCall_3340_029
+        weight: 0
+      - path: head_lower_mouth_DrawCall_3340
+        weight: 0
+      - path: head_mouth_DrawCall_3340_005
+        weight: 0
+      - path: leg_middle_leg_R_DrawCall_3340_041
+        weight: 0
+      - path: leg_shorts_DrawCall_3340_002
+        weight: 0
+      - path: leg_sock_L_DrawCall_3340_018
+        weight: 0
+      - path: leg_sock_R_DrawCall_3340_040
+        weight: 0
+      - path: leg_whole_middle__R_001_DrawCall_3340_049
+        weight: 0
+      - path: leg_whole_middle__R_DrawCall_3340_042
+        weight: 0
+      - path: leg_whole_middle_L_001_DrawCall_3340_048
+        weight: 0
+      - path: leg_whole_middle_L_DrawCall_3340_043
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: walk
+      firstFrame: 0
+      lastFrame: 13
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: arm_bicep_R_DrawCall_3340_003
+        weight: 0
+      - path: arm_elbow_L_DrawCall_3340_008
+        weight: 0
+      - path: arm_elbow_R_DrawCall_3340_017
+        weight: 0
+      - path: arm_forearm_R_DrawCall_3340_031
+        weight: 0
+      - path: arm_hand_L_DrawCall_3340_010
+        weight: 0
+      - path: arm_hand_R_DrawCall_3340_009
+        weight: 0
+      - path: arm_lower_bicep_L_DrawCall_3340_045
+        weight: 0
+      - path: arm_lower_forearm_L_DrawCall_3340_020
+        weight: 0
+      - path: arm_middle_bicep_L_DrawCall_3340_032
+        weight: 0
+      - path: arm_middle_bicep_R_DrawCall_3340_036
+        weight: 0
+      - path: arm_upper_forearm_L_DrawCall_3340_021
+        weight: 0
+      - path: arm_upper_shoulder_L_DrawCall_3340_007
+        weight: 0
+      - path: arm_upper_shoulder_R_DrawCall_3340_001
+        weight: 0
+      - path: arm_wrist_L_DrawCall_3340_015
+        weight: 0
+      - path: arm_wrist_middle_R_DrawCall_3340_019
+        weight: 0
+      - path: arm_wrist_upper_lower_R_DrawCall_3340_016
+        weight: 0
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Hip
+        weight: 1
+      - path: Armature/Root/Hip/Spine
+        weight: 1
+      - path: Armature/Root/Hip/Spine/Head
+        weight: 1
+      - path: Armature/Root/Hip/Spine/Upper_Arm_L
+        weight: 1
+      - path: Armature/Root/Hip/Spine/Upper_Arm_L/Lower_Arm_L
+        weight: 1
+      - path: Armature/Root/Hip/Spine/Upper_Arm_L/Lower_Arm_L/Hand_L
+        weight: 1
+      - path: Armature/Root/Hip/Spine/Upper_Arm_R
+        weight: 1
+      - path: Armature/Root/Hip/Spine/Upper_Arm_R/Lower_Arm_R
+        weight: 1
+      - path: Armature/Root/Hip/Spine/Upper_Arm_R/Lower_Arm_R/Hand_R
+        weight: 1
+      - path: Armature/Root/Hip/Upper_Leg_L
+        weight: 1
+      - path: Armature/Root/Hip/Upper_Leg_L/Lower_Leg_L
+        weight: 1
+      - path: Armature/Root/Hip/Upper_Leg_L/Lower_Leg_L/Foot_L
+        weight: 1
+      - path: Armature/Root/Hip/Upper_Leg_L/Lower_Leg_L/Foot_L/Toes_L
+        weight: 1
+      - path: Armature/Root/Hip/Upper_Leg_R
+        weight: 1
+      - path: Armature/Root/Hip/Upper_Leg_R/Lower_Leg_R
+        weight: 1
+      - path: Armature/Root/Hip/Upper_Leg_R/Lower_Leg_R/Foot_R
+        weight: 1
+      - path: Armature/Root/Hip/Upper_Leg_R/Lower_Leg_R/Foot_R/Toes_R
+        weight: 1
+      - path: body_inner_chest_DrawCall_3340_014
+        weight: 0
+      - path: body_jersey_DrawCall_3340_037
+        weight: 0
+      - path: foot_L_DrawCall_3340_039
+        weight: 0
+      - path: foot_R_DrawCall_3340_038
+        weight: 0
+      - path: foot_shoe_L_DrawCall_3340_012
+        weight: 0
+      - path: foot_shoe_R_DrawCall_3340_011
+        weight: 0
+      - path: head_DrawCall_3340_044
+        weight: 0
+      - path: head_eyeball_L_DrawCall_3340_035
+        weight: 0
+      - path: head_eyeball_R_DrawCall_3340_047
+        weight: 0
+      - path: head_eyebrow_L_DrawCall_3340_027
+        weight: 0
+      - path: head_eyebrow_R_DrawCall_3340_028
+        weight: 0
+      - path: head_inner_eye_L_001_DrawCall_3340_004
+        weight: 0
+      - path: head_inner_eye_L_DrawCall_3340_033
+        weight: 0
+      - path: head_inner_eye_R_001_DrawCall_3340_006
+        weight: 0
+      - path: head_inner_eye_R_DrawCall_3340_034
+        weight: 0
+      - path: head_inner_mouth_2_DrawCall_3340_046
+        weight: 0
+      - path: head_inner_mouth_3_DrawCall_3340_013
+        weight: 0
+      - path: head_lower_eye_L_DrawCall_3340_030
+        weight: 0
+      - path: head_lower_eye_R_DrawCall_3340_029
+        weight: 0
+      - path: head_lower_mouth_DrawCall_3340
+        weight: 0
+      - path: head_mouth_DrawCall_3340_005
+        weight: 0
+      - path: leg_middle_leg_R_DrawCall_3340_041
+        weight: 0
+      - path: leg_shorts_DrawCall_3340_002
+        weight: 0
+      - path: leg_sock_L_DrawCall_3340_018
+        weight: 0
+      - path: leg_sock_R_DrawCall_3340_040
+        weight: 0
+      - path: leg_whole_middle__R_001_DrawCall_3340_049
+        weight: 0
+      - path: leg_whole_middle__R_DrawCall_3340_042
+        weight: 0
+      - path: leg_whole_middle_L_001_DrawCall_3340_048
+        weight: 0
+      - path: leg_whole_middle_L_DrawCall_3340_043
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: Hip
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Upper_Leg_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Upper_Leg_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lower_Leg_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lower_Leg_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Foot_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Foot_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Upper_Arm_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Upper_Arm_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lower_Arm_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lower_Arm_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hand_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hand_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toes_L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toes_R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: walker(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: arm_bicep_R_DrawCall_3340_003
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: arm_elbow_L_DrawCall_3340_008
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: arm_elbow_R_DrawCall_3340_017
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: arm_forearm_R_DrawCall_3340_031
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: arm_hand_L_DrawCall_3340_010
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: arm_hand_R_DrawCall_3340_009
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: arm_lower_bicep_L_DrawCall_3340_045
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: arm_lower_forearm_L_DrawCall_3340_020
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: arm_middle_bicep_L_DrawCall_3340_032
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: arm_middle_bicep_R_DrawCall_3340_036
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: arm_upper_forearm_L_DrawCall_3340_021
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: arm_upper_shoulder_L_DrawCall_3340_007
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: arm_upper_shoulder_R_DrawCall_3340_001
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: arm_wrist_L_DrawCall_3340_015
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: arm_wrist_middle_R_DrawCall_3340_019
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: arm_wrist_upper_lower_R_DrawCall_3340_016
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Armature
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Root
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Hip
+      position: {x: 0.0000000018626451, y: 0.020256924, z: 0.8631913}
+      rotation: {x: 0.7071068, y: 4.32978e-17, z: -0.7071067, w: 4.3297806e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Spine
+      position: {x: -0.24381787, y: 0.00000001840774, z: 0}
+      rotation: {x: 0.00000004371139, y: -3.2986724e-15, z: 1.4418955e-22, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Head
+      position: {x: -0.32455456, y: 0.000000024503187, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Upper_Arm_L
+      position: {x: -0.31187037, y: -0.19778113, z: -0.022289943}
+      rotation: {x: 0.0001263013, y: 0.00013199575, z: 0.71128434, w: 0.70290446}
+      scale: {x: 1, y: 1.0000635, z: 1}
+      transformModified: 1
+    - name: Lower_Arm_L
+      position: {x: -0.26165655, y: 0.00000003945388, z: 1.01863e-10}
+      rotation: {x: 0.0026012668, y: 0.026869519, z: -0.020749545, w: 0.99942017}
+      scale: {x: 0.9999998, y: 0.9999998, z: 0.99999994}
+      transformModified: 1
+    - name: Hand_L
+      position: {x: -0.20563495, y: -0.00000003608875, z: 0.000000007450581}
+      rotation: {x: 0.0059708906, y: -0.00017779565, z: 0.12620375, w: 0.9919864}
+      scale: {x: 1, y: 0.9999999, z: 1}
+      transformModified: 1
+    - name: Upper_Arm_R
+      position: {x: -0.31234765, y: 0.18748951, z: -0.022289945}
+      rotation: {x: -0.024573794, y: 0.024014166, z: 0.71259737, w: -0.7007314}
+      scale: {x: 1, y: 1.0000035, z: 1.000001}
+      transformModified: 1
+    - name: Lower_Arm_R
+      position: {x: -0.28208137, y: 0.00000002773288, z: 0.000000005151378}
+      rotation: {x: -0.0007434206, y: 0.035388544, z: 0.0091112945, w: 0.99933183}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+      transformModified: 1
+    - name: Hand_R
+      position: {x: -0.21817032, y: -0.000000030602678, z: -0.000000020489097}
+      rotation: {x: 0.021626828, y: 0.002316555, z: -0.05267623, w: 0.99837476}
+      scale: {x: 0.9999999, y: 1.0000001, z: 0.99999994}
+      transformModified: 1
+    - name: Upper_Leg_L
+      position: {x: 0.018235615, y: -0.12691227, z: -0.0020165443}
+      rotation: {x: -0.0060708425, y: -0.0004881696, z: 0.99998146, w: 0.000009286209}
+      scale: {x: 0.9999998, y: 1, z: 0.9992487}
+      transformModified: 1
+    - name: Lower_Leg_L
+      position: {x: -0.38523647, y: 0.000000013297949, z: -9.74978e-10}
+      rotation: {x: -0.00000031524047, y: -0.02435905, z: 0.0000000034561014, w: 0.9997033}
+      scale: {x: 1, y: 1, z: 0.9999983}
+      transformModified: 1
+    - name: Foot_L
+      position: {x: -0.40549633, y: 0.000000020341645, z: -3.0559e-10}
+      rotation: {x: 0.00043716765, y: 0.4682262, z: 0.00021734786, w: 0.8836085}
+      scale: {x: 0.9996505, y: 0.99999994, z: 0.9995983}
+      transformModified: 1
+    - name: Toes_L
+      position: {x: -0.08583709, y: -0.000000004889747, z: -0.000000004898247}
+      rotation: {x: 0.00000032179886, y: 0.3113903, z: 0.00000009774402, w: 0.9502821}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Upper_Leg_R
+      position: {x: 0.018235637, y: 0.16742611, z: -0.0020165185}
+      rotation: {x: -0.0060708425, y: 0.0004881257, z: 0.99998146, w: -0.000009286476}
+      scale: {x: 0.9999998, y: 1, z: 0.9992487}
+      transformModified: 1
+    - name: Lower_Leg_R
+      position: {x: -0.38523653, y: 0.000000032819344, z: -4.80213e-10}
+      rotation: {x: -0.0000003152051, y: -0.02435905, z: 0.000000003452868, w: 0.9997033}
+      scale: {x: 1, y: 1, z: 0.9999983}
+      transformModified: 1
+    - name: Foot_R
+      position: {x: -0.4054963, y: 0.000000031837715, z: 0.000000002604793}
+      rotation: {x: -0.0004371322, y: 0.4682262, z: -0.00021678627, w: 0.8836085}
+      scale: {x: 0.9996505, y: 0.99999994, z: 0.9995983}
+      transformModified: 1
+    - name: Toes_R
+      position: {x: -0.08583708, y: 0.000000010011414, z: 4.3638e-10}
+      rotation: {x: 0.00000032179886, y: 0.3113903, z: 0.00000009774402, w: 0.9502821}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: body_inner_chest_DrawCall_3340_014
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: body_jersey_DrawCall_3340_037
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: foot_L_DrawCall_3340_039
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: foot_R_DrawCall_3340_038
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: foot_shoe_L_DrawCall_3340_012
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: foot_shoe_R_DrawCall_3340_011
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: head_DrawCall_3340_044
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: head_eyeball_L_DrawCall_3340_035
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: head_eyeball_R_DrawCall_3340_047
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: head_eyebrow_L_DrawCall_3340_027
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: head_eyebrow_R_DrawCall_3340_028
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: head_inner_eye_L_001_DrawCall_3340_004
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: head_inner_eye_L_DrawCall_3340_033
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: head_inner_eye_R_001_DrawCall_3340_006
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: head_inner_eye_R_DrawCall_3340_034
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: head_inner_mouth_2_DrawCall_3340_046
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: head_inner_mouth_3_DrawCall_3340_013
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: head_lower_eye_L_DrawCall_3340_030
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: head_lower_eye_R_DrawCall_3340_029
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: head_lower_mouth_DrawCall_3340
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: head_mouth_DrawCall_3340_005
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: leg_middle_leg_R_DrawCall_3340_041
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: leg_shorts_DrawCall_3340_002
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: leg_sock_L_DrawCall_3340_018
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: leg_sock_R_DrawCall_3340_040
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: leg_whole_middle__R_001_DrawCall_3340_049
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: leg_whole_middle__R_DrawCall_3340_042
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: leg_whole_middle_L_001_DrawCall_3340_048
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: leg_whole_middle_L_DrawCall_3340_043
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
