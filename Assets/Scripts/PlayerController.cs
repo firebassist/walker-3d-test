@@ -7,6 +7,9 @@ public class PlayerController : MonoBehaviour {
 
 	Animator animator;
 
+	public GameObject ball;
+	public Transform ballPoint;
+
 	void Start () {
 		animator = GetComponent<Animator> ();
 	}
@@ -27,5 +30,13 @@ public class PlayerController : MonoBehaviour {
 
 		float animationSpeedPercent = 1 * inputDir.magnitude;
 		animator.SetFloat ("speedPercent", animationSpeedPercent);
+
+		if(Input.GetButtonDown ("Fire1")) {
+			FireBall();
+		}
+	}
+
+	public void FireBall() {
+		Instantiate(ball, ballPoint.position, ballPoint.rotation);
 	}
 }

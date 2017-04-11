@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: d381d9e6852407a4ea67e431dbcd45f6
-timeCreated: 1490585482
+guid: e7eb84a0c4faa4e48bfd425686d8295e
+timeCreated: 1490827049
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -182,7 +182,8 @@ ModelImporter:
     4300088: arm_elbow_L_DrawCall_3340_008
     7400000: Default Take
     7400002: idle
-    7400004: walk
+    7400004: run
+    7400006: walk
     9500000: //RootNode
     13700000: arm_bicep_R_DrawCall_3340_003
     13700002: arm_elbow_L_DrawCall_3340_008
@@ -240,13 +241,17 @@ ModelImporter:
     optimizeGameObjects: 0
     motionNodeName: <Root Transform>
     animationImportErrors: 
-    animationImportWarnings: "\nClip 'walk' has import animation warnings that might
+    animationImportWarnings: "\nClip 'run' has import animation warnings that might
       lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
       retargeting quality.\n\t'Upper_Leg_L' has scale animation that will be discarded.\n\t'Lower_Leg_L'
       has scale animation that will be discarded.\n\t'Foot_L' has scale animation
       that will be discarded.\n\t'Upper_Leg_R' has scale animation that will be discarded.\n\t'Lower_Leg_R'
       has scale animation that will be discarded.\n\t'Foot_R' has scale animation
-      that will be discarded.\n"
+      that will be discarded.\n\nClip 'walk' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Upper_Leg_L' has scale animation that will be discarded.\n\t'Foot_L'
+      has scale animation that will be discarded.\n\t'Upper_Leg_R' has scale animation
+      that will be discarded.\n\t'Foot_R' has scale animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     animationCompression: 3
@@ -415,10 +420,10 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: walk
-      takeName: walk
+      name: run
+      takeName: run
       firstFrame: 0
-      lastFrame: 13
+      lastFrame: 12
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -426,6 +431,164 @@ ModelImporter:
       loop: 0
       hasAdditiveReferencePose: 0
       loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: arm_bicep_R_DrawCall_3340_003
+        weight: 0
+      - path: arm_elbow_L_DrawCall_3340_008
+        weight: 0
+      - path: arm_elbow_R_DrawCall_3340_017
+        weight: 0
+      - path: arm_forearm_R_DrawCall_3340_031
+        weight: 0
+      - path: arm_hand_L_DrawCall_3340_010
+        weight: 0
+      - path: arm_hand_R_DrawCall_3340_009
+        weight: 0
+      - path: arm_lower_bicep_L_DrawCall_3340_045
+        weight: 0
+      - path: arm_lower_forearm_L_DrawCall_3340_020
+        weight: 0
+      - path: arm_middle_bicep_L_DrawCall_3340_032
+        weight: 0
+      - path: arm_middle_bicep_R_DrawCall_3340_036
+        weight: 0
+      - path: arm_upper_forearm_L_DrawCall_3340_021
+        weight: 0
+      - path: arm_upper_shoulder_L_DrawCall_3340_007
+        weight: 0
+      - path: arm_upper_shoulder_R_DrawCall_3340_001
+        weight: 0
+      - path: arm_wrist_L_DrawCall_3340_015
+        weight: 0
+      - path: arm_wrist_middle_R_DrawCall_3340_019
+        weight: 0
+      - path: arm_wrist_upper_lower_R_DrawCall_3340_016
+        weight: 0
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Hip
+        weight: 1
+      - path: Armature/Root/Hip/Spine
+        weight: 1
+      - path: Armature/Root/Hip/Spine/Head
+        weight: 1
+      - path: Armature/Root/Hip/Spine/Upper_Arm_L
+        weight: 1
+      - path: Armature/Root/Hip/Spine/Upper_Arm_L/Lower_Arm_L
+        weight: 1
+      - path: Armature/Root/Hip/Spine/Upper_Arm_L/Lower_Arm_L/Hand_L
+        weight: 1
+      - path: Armature/Root/Hip/Spine/Upper_Arm_R
+        weight: 1
+      - path: Armature/Root/Hip/Spine/Upper_Arm_R/Lower_Arm_R
+        weight: 1
+      - path: Armature/Root/Hip/Spine/Upper_Arm_R/Lower_Arm_R/Hand_R
+        weight: 1
+      - path: Armature/Root/Hip/Upper_Leg_L
+        weight: 1
+      - path: Armature/Root/Hip/Upper_Leg_L/Lower_Leg_L
+        weight: 1
+      - path: Armature/Root/Hip/Upper_Leg_L/Lower_Leg_L/Foot_L
+        weight: 1
+      - path: Armature/Root/Hip/Upper_Leg_L/Lower_Leg_L/Foot_L/Toes_L
+        weight: 1
+      - path: Armature/Root/Hip/Upper_Leg_R
+        weight: 1
+      - path: Armature/Root/Hip/Upper_Leg_R/Lower_Leg_R
+        weight: 1
+      - path: Armature/Root/Hip/Upper_Leg_R/Lower_Leg_R/Foot_R
+        weight: 1
+      - path: Armature/Root/Hip/Upper_Leg_R/Lower_Leg_R/Foot_R/Toes_R
+        weight: 1
+      - path: body_inner_chest_DrawCall_3340_014
+        weight: 0
+      - path: body_jersey_DrawCall_3340_037
+        weight: 0
+      - path: foot_L_DrawCall_3340_039
+        weight: 0
+      - path: foot_R_DrawCall_3340_038
+        weight: 0
+      - path: foot_shoe_L_DrawCall_3340_012
+        weight: 0
+      - path: foot_shoe_R_DrawCall_3340_011
+        weight: 0
+      - path: head_DrawCall_3340_044
+        weight: 0
+      - path: head_eyeball_L_DrawCall_3340_035
+        weight: 0
+      - path: head_eyeball_R_DrawCall_3340_047
+        weight: 0
+      - path: head_eyebrow_L_DrawCall_3340_027
+        weight: 0
+      - path: head_eyebrow_R_DrawCall_3340_028
+        weight: 0
+      - path: head_inner_eye_L_001_DrawCall_3340_004
+        weight: 0
+      - path: head_inner_eye_L_DrawCall_3340_033
+        weight: 0
+      - path: head_inner_eye_R_001_DrawCall_3340_006
+        weight: 0
+      - path: head_inner_eye_R_DrawCall_3340_034
+        weight: 0
+      - path: head_inner_mouth_2_DrawCall_3340_046
+        weight: 0
+      - path: head_inner_mouth_3_DrawCall_3340_013
+        weight: 0
+      - path: head_lower_eye_L_DrawCall_3340_030
+        weight: 0
+      - path: head_lower_eye_R_DrawCall_3340_029
+        weight: 0
+      - path: head_lower_mouth_DrawCall_3340
+        weight: 0
+      - path: head_mouth_DrawCall_3340_005
+        weight: 0
+      - path: leg_middle_leg_R_DrawCall_3340_041
+        weight: 0
+      - path: leg_shorts_DrawCall_3340_002
+        weight: 0
+      - path: leg_sock_L_DrawCall_3340_018
+        weight: 0
+      - path: leg_sock_R_DrawCall_3340_040
+        weight: 0
+      - path: leg_whole_middle__R_001_DrawCall_3340_049
+        weight: 0
+      - path: leg_whole_middle__R_DrawCall_3340_042
+        weight: 0
+      - path: leg_whole_middle_L_001_DrawCall_3340_048
+        weight: 0
+      - path: leg_whole_middle_L_DrawCall_3340_043
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: walk
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
