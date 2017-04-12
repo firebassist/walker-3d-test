@@ -10,6 +10,11 @@ public class PlayerController : MonoBehaviour {
 	public GameObject ball;
 	public Transform ballPoint;
 
+	public int ballCount;
+	private bool thrown;
+	private GameObject ballClone; //we don't use the original prefab
+
+
 	void Start () {
 		animator = GetComponent<Animator> ();
 	}
@@ -31,12 +36,24 @@ public class PlayerController : MonoBehaviour {
 		float animationSpeedPercent = 1 * inputDir.magnitude;
 		animator.SetFloat ("speedPercent", animationSpeedPercent);
 
-		if(Input.GetButtonDown ("Fire1")) {
+		//if(Input.GetButtonDown ("Fire1") && !thrown && ballCount != 0) {
+			//FireBall();
+		//}
+		thrown = false;
+		if(Input.GetButtonDown ("Fire1") && !thrown) {
 			FireBall();
 		}
+
 	}
 
 	public void FireBall() {
 		Instantiate(ball, ballPoint.position, ballPoint.rotation);
+
+		thrown = true;
+		//ballCount--;
+
+		//if (ballCount == 0) {
+		//	Debug.Log("NO MORE BALLS");
+		//}			
 	}
 }

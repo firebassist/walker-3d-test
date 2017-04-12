@@ -3,55 +3,49 @@ using System.Collections;
 
 public class Shoot : MonoBehaviour {
 
-	public GameObject ball; //reference to the ball prefab, set in editor
-	//private Vector3 throwSpeed = new Vector3(1, 2.2f, 0); //This value is a sure basket, we'll modify this using the forcemeter
-	public Vector3 ballPos; //starting ball position
-	private bool thrown = false; //if ball has been thrown, prevents 2 or more balls
-	private GameObject ballClone; //we don't use the original prefab
-
 	Rigidbody myRigidbody;
 	GameObject cube;
-	GameObject player;
-
 	private Vector3 target;
-	private Vector3 angle;
-	private Vector3 playerOrigin;
-	private float ballSpeed = 6;
 
-	// Use this for initialization
+
 	void Start () {
-		
 		myRigidbody = GetComponent<Rigidbody> ();
-		/* Increase Gravity */
-		Physics.gravity = new Vector3(0, -8, 0);
 
 		cube = GameObject.FindGameObjectWithTag ("cube");
-		player = GameObject.FindGameObjectWithTag ("Player");
 		target = cube.transform.position;
-		playerOrigin = player.transform.position;
-		angle = target-playerOrigin;
+
+		ThrowBallAtTargetLocation(target, 10f);
 	}
 
-	void FixedUpdate () {
-	
-		if (Input.GetButton("Fire1"))
-		{
-			thrown = true;
-			//ballClone = Instantiate(ball, ballPos, transform.rotation) as GameObject;
+	// Throws ball at location with regards to gravity (assuming no obstacles in path) and initialVelocity (how hard to throw the ball)
+	public void ThrowBallAtTargetLocation(Vector3 targetLocation, float initialVelocity)
+	{
+		Vector3 direction = (targetLocation - transform.position).normalized;
+		float distance = Vector3.Distance(targetLocation, transform.position);
 
-			//ballClone.rigidbody.AddForce(throwSpeed, ForceMode.Impulse);
+		float firingElevationAngle = FiringElevationAngle(Physics.gravity.magnitude, distance, initialVelocity);
+		Vector3 elevation = Quaternion.AngleAxis(60f, transform.right) * transform.up;
+		float directionAngle = AngleBetweenAboutAxis(transform.forward, direction, transform.up);
+		Vector3 velocity = Quaternion.AngleAxis(directionAngle, transform.up) * elevation * initialVelocity;
 
-			//GetComponent<Rigidbody>().AddForce(throwSpeed, ForceMode.Impulse);
-			myRigidbody.AddForce(angle * ballSpeed);
-
-		}
-
+		// ballGameObject is object to be thrown
+		myRigidbody.AddForce(velocity, ForceMode.VelocityChange);
 	}
 
-	void OnTriggerEnter(Collider c) {
-		if (c.tag == "cube") {
-			Debug.Log("HIT");
-		}
+	// Helper method to find angle between two points (v1 & v2) with respect to axis n
+	public static float AngleBetweenAboutAxis(Vector3 v1, Vector3 v2, Vector3 n)
+	{
+		return Mathf.Atan2(
+			Vector3.Dot(n, Vector3.Cross(v1, v2)),
+			Vector3.Dot(v1, v2)) * Mathf.Rad2Deg;
+	}
+
+	// Helper method to find angle of elevation (ballistic trajectory) required to reach distance with initialVelocity
+	// Does not take wind resistance into consideration.
+	private float FiringElevationAngle(float gravity, float distance, float initialVelocity)
+	{
+		float angle = 0.5f * Mathf.Asin((gravity * distance) / (initialVelocity * initialVelocity)) * Mathf.Rad2Deg;
+		return angle;
 	}
 
 }
